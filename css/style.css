@@ -7,6 +7,7 @@ html{
 }
 body{
        font-family:'Times New Roman', Times, serif;
+       background-color: #f6f6f6;
 }
 .my-navigation{
     position:   sticky;
@@ -116,11 +117,6 @@ body{
 .two-section .heading h2{
     font-size:2rem;
     font-weight:800;
-}
-.two-section .heading hr{
-    width:10%;
-    height:4px;
-    color:brown;
 }
 /* image sation */
 .two-section .box1{
@@ -295,7 +291,7 @@ body{
     font-weight: 600;
     line-height: 68vh;
     position: relative;
-    bottom: 291px;
+    bottom: 350px;
 }
 .our .mission img {
     max-width: 100%;
@@ -311,6 +307,61 @@ body{
 .our .mission img{
     overflow-clip-margin: content-box;
     overflow: clip; 
+}
+/* fourth section */
+.border-content{
+    text-align:center;
+}
+.border-content h6{
+    color:darkgrey;
+    font-weight:600;
+    font-size:0.7rem;
+    margin-top:-30px;
+}
+.border-content h2{
+    font-size:2rem;
+    font-weight:800;
+}
+.assets h1{
+    color:darkgray;
+    font-weight:800;
+    font-size:2.5rem;
+}
+.assets h2{
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-align: left;
+}
+.assets h5{
+    font-size:0.9rem;
+    font-weight:500;
+    text-align: left;
+}
+.assets.gray{
+    width: 91%;
+    height: 1px;
+    background-color: darkgrey;
+    margin-top: 40px !important;
+    text-align:center;
+    margin:0 auto;
+}
+/* fifth section  */
+.partner{
+    text-align: center;
+}
+.partner .part h6{
+    color:darkgrey;
+    font-weight:600;
+    font-size:0.7rem;
+    margin-top:30px;
+}
+.partner .part h2{
+    font-size:2rem;
+    font-weight:800;
+}
+.partner .part h3{
+    text-align: left;
+    padding:10px;
 }
 @media only screen and(max-width:550px){
     .big-wraper .my-navigation .again{
@@ -344,7 +395,7 @@ body{
     .box1 .text1 h2{
         text-align:center;
     }
-    .our{
+    .our h5{
         margin-top:none !important;
     }
     .bg-text-wraper{
@@ -355,15 +406,9 @@ body{
         font-size:25px;
         line-height: 30px;
     }
-
-    .box4 .img{
-        width:100% !important;
-        height:300px;
+    .partner .part h6{
+        margin-top:60px;
     }
-    /* .box4 .img img{
-        width:100% !important;
-        height:300px;
-    } */
 }
 @media only screen and (max-width:900px){
     .big-wraper .textarea{
