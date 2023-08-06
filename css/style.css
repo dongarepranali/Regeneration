@@ -402,6 +402,9 @@ body{
         padding-top: 10px !important;
         padding-bottom:none;
     }
+    .bg-text-wraper .our .mission h5{
+        margin-top:-10px;
+    }
     .bg-text-wraper .our .mission h2{
         font-size:25px;
         line-height: 30px;
